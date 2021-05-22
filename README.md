@@ -1,9 +1,11 @@
-### Arabic Readability CEFR Classified sentences:
-## Corpus discription:
+# Arabic Readability CEFR Classified sentences:
+## Corpus discription
 This corpus was originally built for Arabic sentence difficulty classification by compiling a corpus from two available source classified for readability on the document level along with a large Arabic corpus obtained by Web crawling.
-# Gloss Corpus: 
-The first corpus source is the reading section of the Gloss Corpus developed by the Defense Language Institute (DLI). Texts in Gloss have been annotated on a six level scale of the Inter-Agency Language Roundtable (IL ), which has been matched to the CEFR levels according to the schema introduced by \citep{tschirner2015assessing}. Gloss is divided according to the four competence areas (lexical, structural, socio-cultural and discursive) and ten different genres (culture, economy, politics, environment, geography, military, politics, science, security, society, and technology). filtered from [Common Crawl](http://commoncrawl.org/)
-\footnote{https://gloss.dliflc.edu/}
+### Gloss Corpus 
+- The first corpus source is the reading section of the [Gloss](https://gloss.dliflc.edu/) Corpus developed by the Defense Language Institute (DLI).
+- Texts in Gloss have been annotated on a six level scale of the Inter-Agency Language Roundtable (IL ), which has been matched to the CEFR levels according to the schema introduced by \citep{tschirner2015assessing}. 
+- Gloss is divided according to the four competence areas (lexical, structural, socio-cultural and discursive) and ten different genres (culture, economy, politics, environment, geography, military, politics, science, security, society, and technology). 
+
 The second corpus source is the \textbf{ALC} , which consists of Arabic written text produced by learners of Arabic in Saudi Arabia collected by \cite{alfaifi2013arabic}. Each text file is annotated with a proficiency level of the student. We mapped these student proficiency levels to CEFR levels.
 
 
