@@ -43,8 +43,7 @@ _If you use any of these corpora in your work, please cite this paper:_
 
 @inproceedings{khallaf-sharoff-2021-automatic,
     title = "Automatic Difficulty Classification of {A}rabic Sentences",
-    author = "Khallaf, Nouran  and
-      Sharoff, Serge",
+    author = "Khallaf, Nouran  and Sharoff, Serge",
     booktitle = "Proceedings of the Sixth Arabic Natural Language Processing Workshop",
     month = apr,
     year = "2021",
@@ -52,6 +51,5 @@ _If you use any of these corpora in your work, please cite this paper:_
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/2021.wanlp-1.11",
     pages = "105--114",
-    
 }
 ```
