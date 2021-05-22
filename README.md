@@ -11,9 +11,9 @@ This corpus was originally built for Arabic sentence difficulty classification b
 - The second corpus source is the [ALC](https://www.arabiclearnercorpus.com/about-the-corpus-en) , which consists of Arabic written text produced by learners of Arabic in Saudi Arabia collected by [Alfaifi and Atwell, 2013](https://www.researchgate.net/publication/267600799_Arabic_Learner_Corpus_v1_A_New_Resource_for_Arabic_Language_Research). 
 - Each text file is annotated with a proficiency level of the student. We mapped these student proficiency levels to CEFR levels.
 
-
-
-
-A counterpart corpus of texts not produced for language learners in mind is provided by I-AR, 75,630 Arabic web pages collected by wide crawling \citep{sharoff06ijcl}.  A random snapshot of 8627 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
+### Web Corpus
+- A counterpart corpus of texts not produced for language learners in mind is provided by I-AR
+- 75,630 Arabic web pages collected by wide crawling \citep{sharoff06ijcl}. 
+-  A random snapshot of 8627 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
 
 Table ~\ref{Data-Set1} shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 5-way (A1, A2, B1, etc), 3-way (A, B or C) and binary (A+B vs C) classification tasks, but here in this presentation, we focus on the 3-way and binary (simple vs complex) classification tasks.
