@@ -19,7 +19,7 @@ This corpus was originally built for Arabic sentence difficulty classification b
 
 ## Data Distribution
 
-|  |CEFR-Level | Gloss  | ALC  |Web  |
+| CEFR-Top |CEFR-Sub | Gloss  | ALC  |Web  |
 |:---:|:---:|:---:|:---:|:---:|
 | A| A1.1 |  |  |  |
 |  | A1.2|  |  |  |
