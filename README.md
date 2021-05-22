@@ -33,7 +33,8 @@ The following Table  shows distribution of the number of used sentences and toke
 
 
 ## How to use
-
+- you can use these corpora seperate or combined as represented in files, also you may use the data as seven or five or three or binary CEFR levels.
+- according to our experiments we recommend combining A2 level with B level if used for sentence readability classification.
 
 
 _If you use any of these corpora in your work, please cite this paper:_
