@@ -19,7 +19,7 @@ This corpus was originally built for Arabic sentence difficulty classification b
 Table ~\ref{Data-Set1} shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 5-way (A1, A2, B1, etc), 3-way (A, B or C) and binary (A+B vs C) classification tasks, but here in this presentation, we focus on the 3-way and binary (simple vs complex) classification tasks.
 
 
-_If you use any of these models in your work, please cite this paper:_
+_If you use any of this corpora in your work, please cite this paper:_
 
 ```
 
