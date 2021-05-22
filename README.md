@@ -13,7 +13,7 @@ This corpus was originally built for Arabic sentence difficulty classification b
 
 ### Web Corpus
 - A counterpart corpus of texts not produced for language learners in mind is provided by I-AR
-- 75,630 Arabic web pages collected by wide crawling \citep{sharoff06ijcl}. 
+- 75,630 Arabic web pages collected by wide crawling [Sharoff, 2006](http://corpus.leeds.ac.uk/serge/publications/2006-ijcl-proof.pdf). 
 - A random snapshot of aproximate 8000 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
 
 
