@@ -17,3 +17,23 @@ This corpus was originally built for Arabic sentence difficulty classification b
 -  A random snapshot of 8627 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
 
 Table ~\ref{Data-Set1} shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 5-way (A1, A2, B1, etc), 3-way (A, B or C) and binary (A+B vs C) classification tasks, but here in this presentation, we focus on the 3-way and binary (simple vs complex) classification tasks.
+
+
+_If you use any of these models in your work, please cite this paper:_
+
+```
+
+@inproceedings{khallaf-sharoff-2021-automatic,
+    title = "Automatic Difficulty Classification of {A}rabic Sentences",
+    author = "Khallaf, Nouran  and
+      Sharoff, Serge",
+    booktitle = "Proceedings of the Sixth Arabic Natural Language Processing Workshop",
+    month = apr,
+    year = "2021",
+    address = "Kyiv, Ukraine (Virtual)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.wanlp-1.11",
+    pages = "105--114",
+    
+}
+```
