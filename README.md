@@ -1,5 +1,5 @@
 # Arabic Readability [CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions) Classified sentences:
-## Corpus discription
+## Corpus description
 This corpus was originally built for Arabic sentence difficulty classification by compiling a corpus from two available source classified for readability on the document level along with a large Arabic corpus obtained by Web crawling. As these corpora have been annotated on the document level and not on the sentence level, we assigned each sentence to the document level in which it appears, by using several filtering heuristics, such as sentence length and containment, as well as via re-annotation through machine learning, and dataset cleaning procedures.
 
 ### Gloss Corpus 
@@ -14,7 +14,7 @@ This corpus was originally built for Arabic sentence difficulty classification b
 ### Web Corpus
 - A counterpart corpus of texts not produced for language learners in mind is provided by I-AR
 - 75,630 Arabic web pages collected by wide crawling [Sharoff, 2006](http://corpus.leeds.ac.uk/serge/publications/2006-ijcl-proof.pdf). 
-- A random snapshot of aproximate 8000 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
+- A random snapshot of approximate  8000 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
 
 
 ## Data Distribution
@@ -33,7 +33,7 @@ The following Table  shows distribution of the number of used sentences and toke
 
 
 ## How to use
-- you can use these corpora seperate or combined as represented in files, also you may use the data as seven or five or three or binary CEFR levels.
+- you can use these corpora separate or combined as represented in files, also you may use the data as seven or five or three or binary CEFR levels.
 - according to our experiments we recommend combining A2 level with B level if used for sentence readability classification.
 
 
