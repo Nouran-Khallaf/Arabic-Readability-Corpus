@@ -19,7 +19,7 @@ This corpus was originally built for Arabic sentence difficulty classification b
 
 ## Data Distribution
 
-The following Table  shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 7-way (A1.1,A1.2, A2, B1.1, B1.2, B2, C),  5-way (A1,A2,B1,B2,C), and 3-way (A, B or C) and binary (A+B vs C) classification tasks.
+The following Table  shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions). In principle we have data for 7-way (A1.1,A1.2, A2, B1.1, B1.2, B2, C),  5-way (A1,A2,B1,B2,C), and 3-way (A, B or C) and binary (A+B vs C) classification tasks.
 
 | CEFR-Top |CEFR-Sub | ALC  | Gloss  |Web  | Total Sentence
 |:---:|:---:|:---:|:---:|:---:|:---:|
