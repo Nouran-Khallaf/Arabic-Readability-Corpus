@@ -14,12 +14,24 @@ This corpus was originally built for Arabic sentence difficulty classification b
 ### Web Corpus
 - A counterpart corpus of texts not produced for language learners in mind is provided by I-AR
 - 75,630 Arabic web pages collected by wide crawling \citep{sharoff06ijcl}. 
--  A random snapshot of 8627 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
+- A random snapshot of aproximate 8000 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
 
+
+## Data Distribution
+
+|  |CEFR-Level | Gloss  | ALC  |Web  |
+|:---:|:---:|:---:|:---:|:---:|
+| A| A1.1 |  |  |  |
+|  | A1.2|  |  |  |
+|  | A2 |  |  |  |
+| B | B1.1 |  |  |  |
+|  | B1.2 |  |  |  |
+|  | B2 |  |  |  |
+|  C| C |  |  |  |
 Table ~\ref{Data-Set1} shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 5-way (A1, A2, B1, etc), 3-way (A, B or C) and binary (A+B vs C) classification tasks, but here in this presentation, we focus on the 3-way and binary (simple vs complex) classification tasks.
 
 
-_If you use any of this corpora in your work, please cite this paper:_
+_If you use any of these corpora in your work, please cite this paper:_
 
 ```
 
