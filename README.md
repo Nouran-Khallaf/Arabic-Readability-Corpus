@@ -1,1 +1,14 @@
-# Readability_Corpus
+### Arabic Readability CEFR Classified sentences:
+## Corpus discription:
+This corpus was originally built for Arabic sentence difficulty classification by compiling a corpus from two available source classified for readability on the document level along with a large Arabic corpus obtained by Web crawling.
+# Gloss Corpus: 
+The first corpus source is the reading section of the Gloss Corpus developed by the Defense Language Institute (DLI). Texts in Gloss have been annotated on a six level scale of the Inter-Agency Language Roundtable (IL ), which has been matched to the CEFR levels according to the schema introduced by \citep{tschirner2015assessing}. Gloss is divided according to the four competence areas (lexical, structural, socio-cultural and discursive) and ten different genres (culture, economy, politics, environment, geography, military, politics, science, security, society, and technology). filtered from [Common Crawl](http://commoncrawl.org/)
+\footnote{https://gloss.dliflc.edu/}
+The second corpus source is the \textbf{ALC} , which consists of Arabic written text produced by learners of Arabic in Saudi Arabia collected by \cite{alfaifi2013arabic}. Each text file is annotated with a proficiency level of the student. We mapped these student proficiency levels to CEFR levels.
+
+
+As these corpora have been annotated on the document level and not on the sentence level, we assigned each sentence to the document level in which it appears, by using several filtering heuristics, such as sentence length and containment, as well as via re-annotation through machine learning, see the dataset cleaning procedure below.
+
+A counterpart corpus of texts not produced for language learners in mind is provided by I-AR, 75,630 Arabic web pages collected by wide crawling \citep{sharoff06ijcl}.  A random snapshot of 8627 sentences longer than 15 words was used to extend the limitations of C-level sentences coming from corpora for language learners.
+
+Table ~\ref{Data-Set1} shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 5-way (A1, A2, B1, etc), 3-way (A, B or C) and binary (A+B vs C) classification tasks, but here in this presentation, we focus on the 3-way and binary (simple vs complex) classification tasks.
