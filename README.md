@@ -1,4 +1,4 @@
-# Arabic Readability CEFR Classified sentences:
+# Arabic Readability [CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions) Classified sentences:
 ## Corpus discription
 This corpus was originally built for Arabic sentence difficulty classification by compiling a corpus from two available source classified for readability on the document level along with a large Arabic corpus obtained by Web crawling. As these corpora have been annotated on the document level and not on the sentence level, we assigned each sentence to the document level in which it appears, by using several filtering heuristics, such as sentence length and containment, as well as via re-annotation through machine learning, and dataset cleaning procedures.
 
