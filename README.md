@@ -19,15 +19,15 @@ This corpus was originally built for Arabic sentence difficulty classification b
 
 ## Data Distribution
 
-| CEFR-Top |CEFR-Sub | ALC  | Gloss  |Web  |
-|:---:|:---:|:---:|:---:|:---:|
-| A| A1.1 |2465  |  |  |
-|  | A1.2| 1380 |  |  |
-|  | A2 | 2258 |  |  |
-| B | B1.1 | 2501 |  |  |
-|  | B1.2 | 113 |  |  |
-|  | B2 |  100|  |  |
-|  C| C | 173 |  |  |
+| CEFR-Top |CEFR-Sub | ALC  | Gloss  |Web  | Total
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| A| A1.1 |2465  | 419 |-  |7390|
+|  | A1.2| 1380 | 189 |  -||
+|  | A2 | 2258 | 697 | - ||
+| B | B1.1 | 2501 | 449 |-  |3939|
+|  | B1.2 | 113 | 876 | - ||
+|  | B2 |  100| 117 |-  ||
+|  C| C | 173 | - |8414  |8587|
 
 
 Table ~\ref{Data-Set1} shows distribution of the number of used sentences and tokens per each Common European Framework of language proficiency Reference [CEFR] Level. In principle we have data for 5-way (A1, A2, B1, etc), 3-way (A, B or C) and binary (A+B vs C) classification tasks, but here in this presentation, we focus on the 3-way and binary (simple vs complex) classification tasks.
